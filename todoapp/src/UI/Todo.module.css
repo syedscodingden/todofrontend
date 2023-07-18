@@ -1,0 +1,75 @@
+.todo {
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 10px;
+  width: 500px;
+  background-color: snow;
+}
+
+.todo h2 {
+  font-size: 25px;
+  color: #a102f7;
+  text-align: center;
+  margin: 5px;
+}
+
+.todocompleted {
+  color: yellowgreen;
+  font-weight: bold;
+  padding: 1px;
+  margin: 5px;
+  text-align: left;
+}
+
+.completedtrue {
+  border: 1px solid yellowgreen;
+  background-color: yellowgreen;
+  color: black;
+  border-radius: 5px;
+  font-size: small;
+  padding: 1px;
+  margin: 5px;
+}
+
+.completedfalse {
+  border: 1px solid firebrick;
+  background-color: firebrick;
+  color: white;
+  border-radius: 5px;
+  font-size: small;
+  padding: 1px;
+  margin: 5px;
+}
+
+.description {
+  color: cornflowerblue;
+  margin: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1px;
+  text-align: left;
+}
+
+.button {
+  font: inherit;
+  border: 1px solid #4f005f;
+  background: #4f005f;
+  color: white;
+  padding: 0.25rem 1.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.button:hover,
+.button:active {
+  background: #741188;
+  border-color: #741188;
+}
+
+.button:focus {
+  outline: none;
+}
